@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SONGS</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            justify-content: center;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/vector-illustration-of-musical-background-with-musical-notes_thumb.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .form{
+            width: 420px;
+            background: transparent;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 10px black;
+            color: rgb(255, 255, 254);
+            border-radius: 10px;
+            padding: 30px 40px;
+        }
+        .form h1{
+            font-size: 30px;
+            text-align: center;
+        }
+        .form .box{
+            width: 100%;
+            height:100% ;
+            margin: 30px 0;
+        }
+        .rt
+        {
+            height: 50px;
+            width: 100%;
+            border-radius: 10px;
+            align-items: center;
+            text-align: center;
+            justify-self:center;
+            background: transparent;
+            color: white;
+            padding: 3px;
+        }
+        .but{
+            width: 100%;
+            height: 45px;
+            background: white;
+            border: none;
+            outline: blue;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+            font-size: 20px;
+            color: black;
+            font-weight: 400;
+            margin-top: 10px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="./singer.html">
+            <h1>sign up</h1>
+            <div class="box">
+        
+                <input type="text" placeholder="ENTER NAME" required class="rt">
+            </div>
+            <div class="box">
+                
+                <input type="number" placeholder="ENTER AGE" required class="rt">
+            </div>
+            <div class="box">
+                
+                <input type="tel" placeholder="ENTER CONTACT" required class="rt">
+            </div>
+            <div class="box">
+                
+                <input type="mail" placeholder="ENTER MAIL" required class="rt">
+            </div>
+            <div class="box">
+                
+                <input type="password" placeholder="ENTER PASSWORD" required class="rt">
+            </div>
+            <button type="submit" class="but">SUBMIT</button>
+            <button type="reset"
+             class="but">RESET</button>
+        </form>
+    </div>
+</body>
+</html>

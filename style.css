@@ -1,0 +1,39 @@
+
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/237/739/original/golden-music-notes-and-treble-clef-background-template-vector.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+div,img{
+    height:70%;
+    width:100%;
+    border-radius: 20px;
+    gap: 5rem;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 5%;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.h1{
+    text-align: center;
+    text-decoration: dashed;
+    font-size: large;
+    font-weight: 400;
+    color: gray;
+    background-color: black;
+}
+a,button{
+    border-radius: 10px;
+    align-items: center;
+    color: black;
+    background-color: grey ;
+    width: 100px;
+    background: white;
+}
